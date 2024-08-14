@@ -47,5 +47,13 @@ int main(int argc, char *argv[])
     {
         // Update volume of the sample
         buffer *= factor;
+
+        // Wrote updated sample to new file
+        fwrite(&buffer, sizeof(int16_t), 1, output);
     }
+
+    // Close files
+    fclose(input);
+    fclose(output);
 }
+

@@ -34,6 +34,10 @@ This project is an audio volume modifier written in C. It allows users to modify
 $ ./volume input.wav output.wav 1.5
 ```
 
+![image](https://github.com/user-attachments/assets/3b542401-d127-4196-a77d-fcf9db172245)
+*Input and Output.wav files are different; the output file being 3 times louder/amplified than the input.wav file!*
+*You can also do fractions such as 0.5, etc. that cut/decrease the volume by a certain factor than it initially was*. 
+
 ## Contributing
 1. Fork the repository.
 2. Create a new branch:
